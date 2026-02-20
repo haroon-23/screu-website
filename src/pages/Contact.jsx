@@ -100,7 +100,7 @@ export default function Contact() {
                             <div className="cal-header">
                                 <h2 className="heading-md">Schedule a Call</h2>
                                 <p className="text-secondary" style={{ fontSize: '0.95rem', marginTop: '8px' }}>
-                                    Select a time that works for you. We'll discuss your data requirements and how KYXD can help.
+                                    Select a time that works for you. We'll discuss your data requirements and how SCREU can help.
                                 </p>
                             </div>
                             <div id="cal-inline-embed" style={{ width: '100%', minHeight: '680px', overflow: 'auto' }} />

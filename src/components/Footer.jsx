@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="container">
                 <div className="footer__top">
                     <div className="footer__brand">
-                        <Link to="/" className="footer__logo">KYXD</Link>
+                        <Link to="/" className="footer__logo">SCREU</Link>
                         <p className="footer__tagline">Training Data for Physical AI</p>
                     </div>
                     <div className="footer__columns">
@@ -27,7 +27,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="footer__bottom">
-                    <p className="footer__copy">© {new Date().getFullYear()} KYXD. All rights reserved.</p>
+                    <p className="footer__copy">© {new Date().getFullYear()} SCREU. All rights reserved.</p>
                 </div>
             </div>
         </footer>
