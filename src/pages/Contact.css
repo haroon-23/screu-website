@@ -1,0 +1,78 @@
+.contact-hero {
+    padding: clamp(140px, 20vh, 220px) 0 clamp(60px, 8vh, 100px);
+}
+
+.contact-hero__desc {
+    font-size: clamp(1rem, 1.3vw, 1.2rem);
+    color: var(--text-secondary);
+    line-height: 1.8;
+    max-width: 640px;
+    margin-top: 24px;
+}
+
+.contact-hero__cta {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 36px;
+}
+
+/* Cal.com Container */
+.cal-container {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cal-header {
+    padding: 32px 36px 0;
+}
+
+.cal-embed {
+    width: 100%;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.cal-embed iframe {
+    border: none !important;
+}
+
+/* Contact Cards Grid */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    min-height: 220px;
+}
+
+.contact-card__icon {
+    font-size: 1.8rem;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid var(--border-subtle);
+    background: rgba(79, 70, 229, 0.05);
+}
+
+@media (max-width: 768px) {
+    .cal-header {
+        padding: 24px 20px 0;
+    }
+
+    .cal-embed {
+        min-height: 500px;
+    }
+}
